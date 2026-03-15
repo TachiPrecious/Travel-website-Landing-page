@@ -1,0 +1,282 @@
+@media (max-width: 790px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .bar {
+    display: block;
+  }
+
+  * {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  
+  body {
+    padding-left: 13px;
+    padding-right: 20px;
+    padding-top: 19px;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .mobile-nav{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 70%;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    left: -1000px;
+  }
+
+  .mobile-logo{
+    color: white;
+  }
+
+  .mobile-nav .nav-links{
+    color: white;
+    padding-top: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    list-style: none;
+
+  }
+
+  .mob {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tion {
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: -140px;
+    padding-top: 75px;
+  }
+
+  .tion .plane1 {
+    display: none;
+  }
+
+  .tion .plane2 {
+    display: none;
+  }
+  .tion .background-picture {
+    left: -330px;
+    z-index: -2;
+    top: 670px;
+    width: 10px;
+    height: auto;
+    margin-top: 89px;
+    margin-bottom: 674px;
+  }
+
+  .tion .back {
+    display: none;
+  }
+  .tion .first-section {
+    padding-bottom: 10px;
+  }
+  .tion span {
+    font-size: 25px;
+  }
+  .tion h1 {
+    font-size: 45px;
+  }
+  .tion p {
+    font-size: 2opx;
+  }
+
+  .section-2 .service {
+    font-size: 20px;
+  }
+
+  .section-2 .pic {
+    display: none;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 810px;
+    gap: 25px;
+    place-items: center;
+  }
+
+  .sec h4 {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .container .space {
+    width: 85%;
+    margin-bottom: 45px;
+  }
+  .line {
+    display: none;
+  }
+  .book {
+    margin-bottom: 562px;
+  }
+
+  .book .easy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sect h5 {
+    font-size: 35px;
+  }
+
+  .upper .others {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    width: 100%;
+  }
+
+  .upper .otheer {
+    margin-bottom: 45px;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .upper .other .group3 {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .upper .other .imaeg {
+    top: 550px;
+    padding-top: 9px;
+  }
+
+  .upper .other .square {
+    top: 550px;
+  }
+
+  .book .trip {
+    top: 670px;
+    left: 1px;
+    width: 100%;
+    margin-bottom: -2321px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mask {
+    position: absolute;
+    left: 120px;
+    top: 870px;
+  }
+
+  .testimonial {
+    margin-top: 590px;
+    margin-bottom: 370px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 53px;
+    display: none;
+  }
+
+  .testimonial .test p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonial .test h1 {
+    font-size: 45px;
+  }
+
+  .testimonial .test div {
+    display: none;
+  }
+
+  .testimonial .windows .chris span {
+    display: fl;
+    /* justify-content: center;
+align-items: center; */
+    margin-left: 53px;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+  }
+
+  .sub {
+    margin-left: -56px;
+    height: auto;
+    width: 320px;
+    z-index: -2;
+    position: absolute;
+    border-top-left-radius: 25px;
+    margin-bottom: 545px;
+  }
+  .sub span {
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+  }
+
+  .sub input {
+    width: 45%;
+  }
+  .sub .telegram {
+    position: absolute;
+    left: 275px;
+  }
+  .sub .goup {
+    position: absolute;
+    left: 117px;
+    z-index: -1;
+  }
+
+  .site-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 450px;
+  }
+  .book .purple {
+    display: none;
+  }
+  .site-footer .jadoo {
+    margin-bottom: 18px;
+  }
+  .site-footer .company {
+    margin-bottom: 18px;
+  }
+
+  .site-footer .contact {
+    margin-bottom: 18px;
+  }
+
+  .site-footer .more {
+    margin-bottom: 18px;
+  }
+
+  .site-footer .butt {
+    margin-left: 65px;
+  }
+  .site-footer .butt .google .goo {
+    color: white;
+  }
+
+  .site-footer .butt .apple .app {
+    color: white;
+  }
+}
